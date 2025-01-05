@@ -1,4 +1,4 @@
-# frontend-3
+# Frontend-3
 Website front-end conversion.
 
 ### Technologies:
