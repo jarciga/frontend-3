@@ -2,4 +2,4 @@
 Website front-end conversion.
 
 ### Technologies:
-HTML, JS
+HTML, CSS, JS
