@@ -1,0 +1,105 @@
+body {
+    background-color:#FFFFFF;
+    border-top: 12px #333333 solid;
+    color:#000000;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+#main-header .container .nav-link {
+    padding: .5rem 2.5rem;
+    color: #000000;
+    font-size: 15px;
+    font-weight:500;
+}
+
+main {
+    position:relative;
+}
+#main-hero-section {
+    position: relative;
+    
+    background-image: url("../img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #E0DFE3;  
+    background-size: cover;
+    height:63vh;
+}
+
+    #main-hero-section .hero-section {
+        position: absolute;
+        left:50%;
+        top:0;
+        width:1366px;
+        height:391px;
+        transform: translate(-50%, 0);
+    }
+
+    #main-hero-section .hero-section .btn-join {
+        position: absolute;
+        bottom: 1.4375em; /*55px;*/
+        right: 5.5875em; /*173px;*/
+        /*background-image: url("../img/hero-context-content.png");*/
+        background-color: #02A32B;
+        padding: 0.5rem 2.213rem;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight:500;
+        text-transform: uppercase;
+
+    }
+
+#main-footer {
+    background-color:#414141;
+}
+
+#main-footer, #main-footer a { 
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.pricing .month-to-month h3, .pricing .month-to-month h4,
+.pricing .video-credit-packs h3, .pricing .video-credit-packs h4,
+.about .step h3, .about .step h4 {
+    font-size:16px;
+}
+
+.pricing .month-to-month h3, .pricing .month-to-month h4,
+.about .step h3, .about .step h4 {
+    color:#FF0033;
+}
+
+.pricing .card .pricing-card-title {
+    color:#000000;
+}
+
+.pricing .video-credit-packs h3, .pricing .video-credit-packs h4 {
+    color:#0055EA;
+}
+
+.about .col  {
+    font-size:12px;   
+}
+.about .col h3 {
+    font-size:14px;   
+    font-weight: bold;
+}
+
+.about .step h3 {
+    font-size:16px;
+    font-weight: bold;
+}
+.about .step p {
+    font-size:14px;
+}
+
+.geolocation .col h3 {
+    font-size:16px;   
+    font-weight: bold;  
+}
+
+.geolocation p {
+    font-size:14px;
+}
